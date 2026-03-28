@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Orbitron:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light mode - RGB channels for Tailwind opacity support */
+    --color-void: 248 250 252;
+    --color-void-light: 241 245 249;
+    --color-void-lighter: 226 232 240;
+    --color-obsidian: 226 232 240;
+    --color-graphite: 255 255 255;
+    --color-snow: 15 23 42;
+    --color-mist: 71 85 105;
+    --color-ghost: 100 116 139;
+    --color-steel: 148 163 184;
+  }
+
+  .dark {
+    --color-void: 10 10 11;
+    --color-void-light: 18 18 20;
+    --color-void-lighter: 26 26 29;
+    --color-obsidian: 17 17 19;
+    --color-graphite: 26 26 31;
+    --color-snow: 248 250 252;
+    --color-mist: 148 163 184;
+    --color-ghost: 100 116 139;
+    --color-steel: 71 85 105;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: rgb(var(--color-void));
+    color: rgb(var(--color-snow));
+    @apply antialiased;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+  }
+
+  ::selection {
+    @apply bg-cyber-green/30 text-white-pure;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgb(var(--color-obsidian));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(var(--color-steel));
+    @apply rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(var(--color-ghost));
+  }
+}
+
+@layer components {
+  .text-gradient-cyber {
+    @apply bg-gradient-to-r from-cyber-green via-cyber-green-dim to-tactical-amber bg-clip-text text-transparent;
+  }
+
+  .border-glow {
+    @apply border border-cyber-green/20;
+    box-shadow: 0 0 20px rgba(74, 222, 128, 0.1), inset 0 0 20px rgba(74, 222, 128, 0.05);
+  }
+
+  .border-glow-amber {
+    @apply border border-tactical-amber/20;
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.1), inset 0 0 20px rgba(245, 158, 11, 0.05);
+  }
+
+  .glass-panel {
+    @apply bg-graphite/80 backdrop-blur-xl border border-steel/30 rounded-lg;
+  }
+
+  .terminal-text {
+    @apply font-mono text-cyber-green;
+    text-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+  }
+
+  .scan-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(74, 222, 128, 0.4), transparent);
+    animation: scanLine 3s linear infinite;
+    pointer-events: none;
+  }
+
+  .hud-corner {
+    @apply absolute w-4 h-4 border-cyber-green/50;
+  }
+
+  .hud-corner-tl {
+    @apply top-0 left-0 border-t-2 border-l-2;
+  }
+
+  .hud-corner-tr {
+    @apply top-0 right-0 border-t-2 border-r-2;
+  }
+
+  .hud-corner-bl {
+    @apply bottom-0 left-0 border-b-2 border-l-2;
+  }
+
+  .hud-corner-br {
+    @apply bottom-0 right-0 border-b-2 border-r-2;
+  }
+
+  .cyber-button {
+    @apply relative px-6 py-3 font-mono text-sm uppercase tracking-wider;
+    @apply bg-graphite border border-cyber-green/30 text-cyber-green;
+    @apply transition-all duration-300 ease-out;
+    @apply hover:bg-cyber-green/10 hover:border-cyber-green/60 hover:shadow-[0_0_20px_rgba(74,222,128,0.2)];
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  }
+
+  .cyber-button-amber {
+    @apply border-tactical-amber/30 text-tactical-amber;
+    @apply hover:bg-tactical-amber/10 hover:border-tactical-amber/60 hover:shadow-[0_0_20px_rgba(245,158,11,0.2)];
+  }
+
+  .cyber-button-solid {
+    @apply bg-cyber-green text-void border-cyber-green;
+    @apply hover:bg-cyber-green-dim hover:border-cyber-green-dim;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .grid-overlay {
+    @apply absolute inset-0 pointer-events-none;
+    background-image: 
+      linear-gradient(rgba(74, 222, 128, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(74, 222, 128, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+}

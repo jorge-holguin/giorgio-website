@@ -1,0 +1,73 @@
+     JORGE ALBERTO HOLGUIN CUCALÓN
+Lima, Perú • https://www.linkedin.com/in/jorgeholguinc/ • +511 962273657 • jorge.holguin1105@gmail.com
+jorge-holguin (Jorge Holguin) · GitHub
+
+ Desarrollador Backend / Full Stack con 4 años de experiencia en desarrollo de aplicaciones web y backend con Node.js, TypeScript y React, y 1 año de experiencia con Java y Spring Boot. Experiencia en desarrollo de APIs, microservicios, integración de sistemas y despliegue de soluciones con Docker y Jenkins. He participado en proyectos para la red de hospitales del MINSA, trabajando en sistemas médicos críticos con enfoque en rendimiento, mantenibilidad y continuidad operativa.
+
+EXPERIENCIA PROFESIONAL
+
+Sede Administrativa Hospital José Agurto Tello (HJATCH - MINSA)
+Desarrollador Full Stack	Lima, Perú 
+Marzo 2025 – Actualidad 
+●	Desarrollo de sistemas médicos y gestión de citas para hospitales del MINSA.
+●	Implementación de microservicios con Node.js, TypeScript, Java y Spring Boot.
+●	Desarrollo de APIs para validación del seguro SIS, hospitalización y emergencias.
+●	Integración con sistemas externos mediante envío y procesamiento de tramas estandarizadas al SETI-SIS.
+●	Optimización de consultas SQL, uso de Redis y procedimientos almacenados.
+●	Despliegue de aplicaciones contenerizadas con Docker y pipelines en Jenkins.
+●	Implementación de pruebas unitarias e integración para asegurar la estabilidad de APIs y procesos críticos.
+●	Aplicación de buenas prácticas de desarrollo, documentación técnica y pruebas automatizadas.
+●	Optimización de consultas SQL que mejoró los tiempos de respuesta en módulos clínicos críticos.
+●	Implementación de microservicios para procesos de validación SIS y hospitalización en entornos de alta disponibilidad.
+
+Congreso de la República del Perú
+Coordinador de Informática	Lima, Perú
+Diciembre 2024 – Marzo 2025
+●	Desarrollar la landing page institucional, mejorando la presencia digital y el acceso a la información de la entidad
+●	Diseño e implementación de plataforma de gestión documental con integración a Supabase y Google Drive API.
+●	Asegurar la continuidad del Sistema de Trámite Documentario bajo protocolos de autenticación y seguridad.
+
+Freelancer
+Desarrollador Full Stack / Data Developer	Lima, Perú
+Setiembre 2021 – Diciembre 2024
+●	Desarrollar aplicaciones web y móviles multiplataforma con React, Next.js y React Native.
+●	Construir APIs escalables en Node.js y diseñar flujos ETL para la integración de datos desde diversas fuentes.
+●	Integrar soluciones de IA generativa (RAG, LangChain) para optimizar procesos y la experiencia de usuario en productos digitales.
+
+
+
+
+
+
+
+EDUCACIÓN
+
+Pontificia Universidad Católica del Perú
+Ingeniería Electrónica – Titulado
+
+IDAT
+Especialización en Desarrollo Back-End
+
+IDAT
+Especialización en Desarrollo de Aplicaciones Móviles
+
+Cibertec
+Java 17 Desarrollo Back-End
+	Lima, Perú
+Junio 2018
+
+CERTIFICACIONES INTERNACIONALES
+
+•	Microsoft Certified: Azure Fundamentals (AZ-900) | Microsoft 
+
+•	Google Cloud Digital Leader | Google Cloud
+
+SKILLS ADICIONALES
+
+●	Skills: Node.js, TypeScript, Java, Spring Boot, React, Next.js, React Native, PostgreSQL, SQL Server, Redis, Docker, Jenkins, Git, Linux, REST APIs, microservicios.
+●	Metodologías: Trabajo bajo marco ágil Scrum y gestión con GitHub/Trello.
+●	Divulgación: Creador de contenido en "El Hub de Giorgio" (YouTube), enfocado en IA y Desarrollo.
+●	Idiomas: Español (Nativo) e Inglés (Fluido - Nivel B2)
+
+
+

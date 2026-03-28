@@ -1,0 +1,13 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow-k8s" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path fill="#326CE5" filter="url(#glow-k8s)" d="M64 2L8 32v64l56 30 56-30V32L64 2zm0 20l36 18v40L64 98 28 80V40l36-18z"/>
+  <path fill="#fff" d="M64 35l-20 10v20l20 10 20-10V45L64 35zm0 8l12 6v12l-12 6-12-6V49l12-6z"/>
+</svg>

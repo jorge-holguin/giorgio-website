@@ -1,0 +1,12 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow-azure" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path fill="#0089D6" filter="url(#glow-azure)" d="M46.09 76.5L14.06 119.6H0L41.24 55.4 46.09 76.5zM66.29 14.79H39.27L14.06 67.98l31.8-11.72L66.29 14.79zM72.81 30.57L57.04 91.59l41.67-8.68L72.81 30.57zM128 119.6H56.8l52.23-16.62L128 119.6z"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow-docker" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path fill="#2496ED" filter="url(#glow-docker)" d="M124.8 52.1c-4.3-2.5-10-2.8-14.8-1.4-.6-5.2-4-9.7-8-12.9l-1.6-1.3-1.4 1.6c-2.7 3.1-3.5 8.3-3.1 12.3.3 2.9 1.2 5.9 3 8.3-1.4.8-2.9 1.9-4.3 2.4-2.8 1-5.9 2-8.9 2H79V36H64V22H34V8H20v14H6v28H0v14c0 6.7 1.5 13.1 4.3 18.8 3.2 6.4 8 11.4 14.2 14.7 7.1 3.8 15.2 5.4 23.5 5.4 6.3 0 12.8-.8 18.9-2.5 8-2.2 15.3-5.9 21.5-10.9 5.2-4.1 9.6-9 13.3-14.5 4.8-7.5 7.5-15.5 9.2-23.4h.8c5.7 0 11.4-1.3 16.2-4.3l1.5-.9-1.4-1.5c-2.1-1.9-4.8-3.3-7.2-4.2zm-106 6h-10V48h10v10zm16 0H25V48h10v10zm16 0H41V48h10v10zm0-16H41V32h10v10zm16 16H57V48h10v10zm0-16H57V32h10v10zm0-16H57V16h10v10zm16 32H73V48h10v10zm0-16H73V32h10v10z"/>
+</svg>
